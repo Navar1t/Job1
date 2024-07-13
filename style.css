@@ -1,0 +1,75 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c9bdbd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: rgb(233, 230, 230);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #fafafa;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+  background: rgba(252, 252, 252, 0.692);
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content h2, .content h3 {
+  margin-top: 20px;
+}
+
+.content p {
+  line-height: 1.6;
+  text-indent: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
